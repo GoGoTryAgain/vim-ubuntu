@@ -17,6 +17,7 @@ install rg
 
 4. install gtags libs
 sudo apt build-dep global
+
 sudo apt install libncurses5-dev libncursesw5-dev
 
 5. get gtags
@@ -25,7 +26,9 @@ https://www.gnu.org/software/global/download.html  to download
 
 6. cd gtags to install
 ./configure
+
 make
+
 sudo make install
 
 pip3 install pygments
